@@ -5,7 +5,7 @@
 // and returns the modified groceries list
 function deleteThirdItem(groceries: string[]): string[] {
   // write your code here...
-  groceries.splice(4, 1);
+  groceries.splice(2, 1);
   return groceries;
 }
 
@@ -14,7 +14,7 @@ function deleteThirdItem(groceries: string[]): string[] {
 // and returns the modified groceries array
 function insertItemAtBeginning(groceries: string[], item: string): string[] {
   // write your code here...
-  groceries.unshift(`Potato`);
+  groceries.unshift(item);
   return groceries;
 }
 
@@ -23,7 +23,8 @@ function insertItemAtBeginning(groceries: string[], item: string): string[] {
 // and return the modified groceries array
 function replaceFirstTwoItems(groceries: string[]): string[] {
   // write your code here...
-  return [];
+  groceries.splice(0, 2, `ketchup`, `chili`);
+  return groceries;
 }
 
 export { deleteThirdItem, insertItemAtBeginning, replaceFirstTwoItems };
