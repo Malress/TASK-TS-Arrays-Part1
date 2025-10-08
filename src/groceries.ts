@@ -2,16 +2,15 @@
 // Write a createGroceries function that returns an array with 6 groceries items (each item is a string)
 function createGroceries(): string[] {
   // write your code here...
-
-  return []; // replace empty array with what you see is fit
+  return ["Milk", "Eggs", "Spoon", "Water", "Cups", "Tissue"]; // replace empty array with what you see is fit
 }
 
 // Step 2:
 // Write a getSecondGroceryItem function that returns the second grocery item from `groceries` argument
 function getSecondGroceryItem(groceries: string[]): string {
   // write your code here...
-
-  return ""; // replace empty string with what you see is fit
+  console.log(getGroceriesCount);
+  return groceries[1]; // replace empty string with what you see is fit
 }
 
 // Step 3:
@@ -19,7 +18,7 @@ function getSecondGroceryItem(groceries: string[]): string {
 function getGroceriesCount(groceries: string[]): number {
   // write your code here...
 
-  return 0; // replace zero with what you see is fit
+  return groceries.length; // replace zero with what you see is fit
 }
 
 // Step 4:
