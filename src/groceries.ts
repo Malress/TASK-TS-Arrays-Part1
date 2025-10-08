@@ -26,7 +26,7 @@ function getGroceriesCount(groceries: string[]): number {
 function getLastGroceryItem(groceries: string[]): string {
   // write your code here...
 
-  return ""; // replace empty string with what you see is fit
+  return groceries[groceries.length - 1]; // replace empty string with what you see is fit
 }
 
 // Step 5:
